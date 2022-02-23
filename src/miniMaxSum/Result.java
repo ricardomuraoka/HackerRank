@@ -13,7 +13,7 @@ class Result {
     public static void miniMaxSum(List<Integer> arr) {
         int min = arr.get(0);
         int max = arr.get(0);
-        int soma = 0;
+        long soma = 0;
         for (int n : arr) {
             soma += n;
             if (n < min) min = n;
